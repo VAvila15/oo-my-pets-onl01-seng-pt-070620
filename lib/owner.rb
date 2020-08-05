@@ -28,6 +28,6 @@ class Owner
   end
   
   def add_cat(cat)
-    self.cats << cat
+    Cats.owner << cat
   end
 end
