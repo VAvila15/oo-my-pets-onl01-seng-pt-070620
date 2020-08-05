@@ -8,7 +8,7 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-    self.cats
+    @cats = []
   end
   
   def say_species
@@ -26,5 +26,8 @@ class Owner
   def self.reset_all
     @@all.clear
   end
+  
+  def add_cat
+    
 
 end
