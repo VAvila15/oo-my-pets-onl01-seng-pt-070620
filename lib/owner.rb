@@ -53,7 +53,7 @@ class Owner
     end
   end
   
-  def self.sell_pets
+  def owner.sell_pets
     @@all.clear
   end
 end
