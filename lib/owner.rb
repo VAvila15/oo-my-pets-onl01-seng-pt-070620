@@ -46,4 +46,6 @@ class Owner
       dogs.mood = "happy"
     end
   end
+  
+  def feed_cats
 end
