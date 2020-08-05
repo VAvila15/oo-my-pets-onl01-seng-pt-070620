@@ -28,7 +28,7 @@ class Owner
   end
   
   def add_cat(cat)
+    self.cats << cat
+  end
     
-    
-
 end
