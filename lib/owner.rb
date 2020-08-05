@@ -27,7 +27,8 @@ class Owner
     @@all.clear
   end
   
-  def add_cat
+  def add_cat(cat)
+    
     
 
 end
