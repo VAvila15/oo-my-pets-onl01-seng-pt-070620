@@ -64,6 +64,7 @@ class Owner
     end
   end
   
-  def 
+  def list_pets
+    
 
 end
