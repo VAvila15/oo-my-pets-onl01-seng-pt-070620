@@ -54,7 +54,7 @@ class Owner
   end
   
   def sell_pets
-    cats.clear do |cats|
+    cats.clear do |cats, dogs|
       cats.mood = "nervous"
     end
   end
