@@ -52,4 +52,8 @@ class Owner
       cats.mood = "happy"
     end
   end
+  
+  def self.sell_pets
+    @@all.clear
+  end
 end
