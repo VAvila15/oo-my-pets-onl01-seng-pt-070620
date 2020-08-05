@@ -28,6 +28,6 @@ class Owner
   end
   
   def add_cat(cat)
-    Cats.collect do (|self| Cats.self)
+    
   end
 end
